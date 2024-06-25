@@ -1,0 +1,132 @@
+body {
+    background-color: #000 !important;
+    color: #fff !important; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+header {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.navbar {
+    background-color: #000 !important;
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+.section {
+    background-color: #111 !important;
+    border: 2px solid #ff0000 !important;
+    padding: 20px !important;
+    margin: 20px 0 !important;
+    border-radius: 10px !important;
+}
+
+.section h2 {
+    color: #ff0000 !important;
+}
+
+.btn-primary, .btn-dark, .btn-secondary {
+    background-color: #ff0000 !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover, .btn-dark:hover, .btn-secondary:hover {
+    background-color: #cc0000 !important;
+}
+
+.profile-info {
+    color: #fff !important;
+}
+
+footer {
+    text-align: center !important;
+    padding: 20px !important;
+    background-color: #111 !important;
+    border-top: 2px solid #ff0000 !important;
+    color: #fff !important;
+}
+
+.contact-buttons a {
+    background-color: #ff0000 !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 10px !important;
+    margin: 5px !important;
+    text-decoration: none !important;
+    border-radius: 5px !important;
+}
+
+.contact-buttons a:hover {
+    background-color: #cc0000 !important;
+}
+
+.card {
+    background-color: #000 !important;
+    border: 1px solid #ff0000 !important;
+}
+
+.card .card-title, .card .card-text {
+    color: #fff !important;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+}
+
+.carousel-caption h5, .carousel-caption p {
+    color: #ff0000 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ff0000 !important;
+    border-radius: 50% !important;
+    padding: 10px !important;
+}
+
+.bg-primary, .bg-dark {
+    background-color: #000 !important;
+}
+
+.text-primary {
+    color: #ff0000 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.nav-item .nav-link {
+    color: #fff !important;
+}
+
+.nav-item .nav-link:hover {
+    color: #cc0000 !important;
+}
+
+header.bg-primary {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+header .nav-link {
+    color: #fff !important;
+}
+
+header .nav-link:hover {
+    color: #cc0000 
+}

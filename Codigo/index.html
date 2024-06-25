@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil GitHub</title>
+    <link rel="stylesheet" href="../Codigo/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2fceb8262.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Fernando Dantas</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#perfil">Perfil</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#repositorios">Repositórios</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#conteudo">Conteúdo Sugerido</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#colegas">Colegas de Trabalho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="perfil" class="section container my-5">
+        <h2>Perfil do Usuário</h2>
+        <div class="user-profile">
+            <img id="avatar" src="" alt="Avatar" class="img-fluid rounded-circle" width="150">
+            <h3 id="username"></h3>
+            <p id="bio"></p>
+            <div class="contact-buttons">
+                <a id="github" href="" class="btn btn-dark" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a id="linkedin" href="" class="btn btn-primary" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="repositorios" class="section container my-5">
+        <h2>Repositórios</h2>
+        <div class="row" id="repos-list">
+        </div>
+    </section>
+
+    <section id="conteudo" class="section container my-5">
+        <h2>Conteúdo Sugerido</h2>
+        <div id="carouselContent" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" id="suggested-content">
+               
+            </div>
+            <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="colegas" class="section container my-5">
+        <h2>Colegas de Trabalho</h2>
+        <div class="row" id="colleagues-list">
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Fernando Dantas Gomes Leite. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

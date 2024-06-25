@@ -1,0 +1,57 @@
+{
+    "conteudos": [
+      {
+        "id": 1,
+        "title": "Artigo sobre IA",
+        "description": "Um artigo detalhado sobre ia quantica",
+        "image": "img/inteligencia_artificial_quantica.jpg",
+        "link": "https://algomais.com/ia-quantica-um-mundo-de-bits-e-qubits/"
+      },
+      {
+        "id": 2,
+        "title": "Artigo sobre Machine Learning",
+        "description": "Um artigo explicativo sobre a Machine Learning.",
+        "image": "img/machine_learning.jpg",
+        "link": "https://www.ibm.com/br-pt/topics/machine-learning"
+      },
+      {
+        "id": 3,
+        "title": "Infográfico sobre Big Data",
+        "description": "Um infográfico que mostra a importância do Big Data nos dias de hoje.",
+        "image": "img/Big-Data-na-prática-1-scaled.jpg.webp",
+        "link": "https://blog.anhembionline.com.br/o-que-e-big-data/"
+      },
+      {
+        "id": 4,
+        "title": "Artigo sobre Redes Neurais",
+        "description": "Uma introdução sobre as redes neurais",
+        "image": "img/rede_neural.jpg",
+        "link": "https://www.ibm.com/br-pt/topics/neural-networks"
+      },
+      {
+        "id": 5,
+        "title": "Brasil campeão mundial em robótica",
+        "description": "Uma notícia sobre o campeão mundial de robótica",
+        "image": "img/robotica.avif",
+        "link": "https://epocanegocios.globo.com/tecnologia/noticia/2024/04/brasil-e-campeao-no-mundial-de-robotica-em-houston.ghtml"
+      }
+    ],
+    "colegas": [
+      {
+        "id": 1,
+        "name": "João Silva",
+        "description": "Desenvolvedor Frontend"
+      },
+      {
+        "id": 2,
+        "name": "Maria Souza",
+        "description": "Desenvolvedora Backend"
+      },
+      {
+        "id": 3,
+        "name": "Carlos Oliveira",
+        "description": "Designer UX/UI"
+      }
+    ]
+  }
+  
