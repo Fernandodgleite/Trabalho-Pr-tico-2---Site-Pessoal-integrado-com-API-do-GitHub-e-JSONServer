@@ -54,9 +54,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 contentItem.classList.add('carousel-item');
                 if (index === 0) contentItem.classList.add('active');
                 contentItem.innerHTML = `
-                    <img src="${content.image}" class="d-block w-100" alt="${content.title}">
+                   <img src="${content.image}" class="d-block w-100" alt="${content.title}">  
                     <div class="carousel-caption d-none d-md-block">
                         <h5>${content.title}</h5>
+                        <a href="${content.link}" class="btn btn-primary" target="_blank">Leia mais</a>
                         <p>${content.description}</p>
                     </div>
                 `;

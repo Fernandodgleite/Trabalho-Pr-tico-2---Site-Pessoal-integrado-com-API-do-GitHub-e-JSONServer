@@ -18,7 +18,7 @@
         "id": 3,
         "title": "Infográfico sobre Big Data",
         "description": "Um infográfico que mostra a importância do Big Data nos dias de hoje.",
-        "image": "img/Big-Data-na-prática-1-scaled.jpg.webp",
+        "image": "img/bigdata.jpg",
         "link": "https://blog.anhembionline.com.br/o-que-e-big-data/"
       },
       {
@@ -32,7 +32,7 @@
         "id": 5,
         "title": "Brasil campeão mundial em robótica",
         "description": "Uma notícia sobre o campeão mundial de robótica",
-        "image": "img/robotica.avif",
+        "image": "img/robotica.jpg",
         "link": "https://epocanegocios.globo.com/tecnologia/noticia/2024/04/brasil-e-campeao-no-mundial-de-robotica-em-houston.ghtml"
       }
     ],
