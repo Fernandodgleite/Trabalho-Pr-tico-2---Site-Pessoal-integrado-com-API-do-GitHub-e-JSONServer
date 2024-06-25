@@ -77,11 +77,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 colleagueItem.classList.add('col-md-4', 'mb-3');
                 colleagueItem.innerHTML = `
                     <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">${colleague.name}</h5>
-                            <p class="card-text">${colleague.description}</p>
-                        </div>
-                    </div>
+    <div class="card-body">
+        <div class="img-colega">
+            <img src="${colleague.image}" class="colleague-image" alt="Imagem do Colega">
+        </div>
+        <h5 class="card-title">${colleague.name}</h5>
+        <p class="card-text">${colleague.description}</p>
+        <a href="${colleague.link}" class="btn btn-primary" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
+</div>
+
                 `;
                 colleaguesList.appendChild(colleagueItem);
             });

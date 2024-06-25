@@ -39,18 +39,42 @@
     "colegas": [
       {
         "id": 1,
-        "name": "João Silva",
-        "description": "Desenvolvedor Frontend"
+        "name": "Arlindo Junior",
+        "description": "Estudante",
+        "image": "img/arlindo.jpg",
+        "link": "https://github.com/ArlindoSPJr"
       },
+
       {
         "id": 2,
-        "name": "Maria Souza",
-        "description": "Desenvolvedora Backend"
+        "name": "Arthur Pazzutti",
+        "description": "Estudante",
+        "image": "img/pazzutti.jpg",
+        "link": "https://github.com/pazzutti"
       },
+
       {
         "id": 3,
-        "name": "Carlos Oliveira",
-        "description": "Designer UX/UI"
+        "name": "Vitor Costa",
+        "description": "Estudante",
+        "image": "img/Vitor Costa.jpg",
+        "link": "https://github.com/VitorCostaVianna"
+      },
+
+      {
+        "id": 4,
+        "name": "Joaquim Guilherme",
+        "description": "Estudante",
+        "image": "img/joaquim.jpg",
+        "link": "https://github.com/JoaquimGCVS"
+      },
+      
+      {
+        "id": 5,
+        "name": "Eliseu Chaves",
+        "description": "Estudante",
+        "image": "img/eliseu.jpg",
+        "link": "https://github.com/eliseu324"
       }
     ]
   }
